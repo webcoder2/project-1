@@ -83,15 +83,21 @@ p {
     z-index: 10;
     cursor: pointer;
 }
-.links{
-    float:left;
-    color:white;
-    padding-top:5px;
-    padding-left:9px;
-    padding-right:9px;
-    padding-bottom:5px;
-    font-family:fantasy;
+
+.links {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: darkgreen;
+}
+.article {
     font-size:20px;
 }
-.links:hover{
-    background-color: darkgreen;
